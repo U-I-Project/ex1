@@ -13,6 +13,7 @@ def main():
     else:
         day = 30
     print("Month of ", month, "/", year, " has ", day, " days.", sep="")
+    /* add nothing */
 
 if __name__ == '__main__':
     main()
