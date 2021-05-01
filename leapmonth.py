@@ -1,6 +1,10 @@
 import sys
 
 def main():
+    error_message = "please enter the correct year and month"
+    if sys.argv==None or sys.argv[1]<=0 or sys.argv[2]<=1 or sys.argv[2]>12:
+        printf(error_message)
+        return
     year = int(sys.argv[1])
     month = int(sys.argv[2])
     if month==1 or month==3 or month==5 or month==7 or month==8 or month==10 or month==12:
